@@ -1,4 +1,5 @@
 def main():
+    # replace "book/frankenstein.txt" with the source of your book
     book_path = "books/frankenstein.txt"
     text = get_book_text(book_path)
     total_words = get_word_count(text)
